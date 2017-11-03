@@ -1,0 +1,16 @@
+body > div { 
+font-size: 5em;
+text-align: center;
+padding: 1em 1em 1em 1em;
+background:#676470;
+transition:all 0.3s ease;
+}
+.dbox {
+opacity:0.5;
+}
+.dox:hover{
+opacity:1;
+}
+.color:hover {
+background:#006747;
+}
