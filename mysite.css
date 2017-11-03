@@ -1,9 +1,14 @@
-body > div { 
+div { 
 font-size: 5em;
-text-align: center;
+text-align: left;
 padding: 1em 1em 1em 1em;
 background:#676470;
 transition:all 0.3s ease;
+}
+div.title { 
+font-size: 5em;
+text-align: center;
+
 }
 .dbox {
 opacity:0.5;
