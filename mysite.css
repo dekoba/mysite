@@ -1,5 +1,5 @@
-div:not(.accordion) { 
-font-size: 2em;
+div { 
+font-size: 1em;
 text-align: left;
 padding: 1em 1em 1em 1em;
 background:#676470;
@@ -7,7 +7,7 @@ transition:all 0.3s ease;
 height: 300px;
 }
 .title { 
-font-size: 5em;
+font-size: 2em;
 text-align: center;
 
 }
