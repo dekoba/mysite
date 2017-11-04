@@ -29,7 +29,7 @@ max-height:100%;
 }
 #headline{
 	height:15em;
-	background-image:url("/images/purplespace.jpg");
+	background-image:url("images/purplespace.jpg");
 	background-size: cover;
 	color:white;
 	-webkit-text-fill-color: white; /* Will override color (regardless of order) */
