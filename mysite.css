@@ -1,9 +1,9 @@
 div .field { 
 font-size: 1em;
 text-align: left;
+color:white;
 padding: 1em 1em 1em 1em;
 background:#676470;
-transition:all 0.3s ease;
 
 }
 .title { 
