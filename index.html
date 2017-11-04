@@ -4,10 +4,21 @@
 <head>
 <link rel="stylesheet" type="text/css" href="mysite.css">
 <title>Jacob's Site</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <script>
+  $( function() {
+    $( "#accordion" ).accordion({
+      collapsible: true
+    });
+  } );
+  </script>
 </head>
 
 <body>
-<div class='title'>Jacob's Portfolio</div>
+<div id="accordion">
+<h3 class='title'>Jacob's Portfolio</h3>
 <div class="dbox color"> Hello world! 
 Now I am changing things.<br>
 I wonder if newlines work. <br> Lets find out.<br>
@@ -15,9 +26,9 @@ Now a scripted commit<br>
 <br>
 Apparently newlines dont work, but breaks do.</div>
 
-<div class='title'>
+<h3 class='title'>
 Julia's game idea:
-</div>
+</h3>
 <div class='dbox color'>
 Roguelike, meaing you die a lot to progress<br>
 <br>
